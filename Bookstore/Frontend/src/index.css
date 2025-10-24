@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Global dark mode styles */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure no white backgrounds in dark mode */
+.dark {
+  color-scheme: dark;
+}
+
+.dark * {
+  border-color: rgb(55 65 81); /* gray-700 */
+}
+
+/* Override any white backgrounds in dark mode */
+.dark .bg-white {
+  background-color: rgb(15 23 42) !important; /* slate-900 */
+}
+
+.dark .text-white {
+  color: rgb(255 255 255) !important;
+}
+
+/* Ensure proper text contrast */
+.dark .text-gray-900 {
+  color: rgb(255 255 255) !important; /* white */
+}
+
+.dark .text-gray-800 {
+  color: rgb(243 244 246) !important; /* gray-100 */
+}
+
+.dark .text-gray-700 {
+  color: rgb(209 213 219) !important; /* gray-300 */
+}
+
+.dark .text-gray-600 {
+  color: rgb(156 163 175) !important; /* gray-400 */
+}
+
+.dark .text-gray-500 {
+  color: rgb(107 114 128) !important; /* gray-500 */
+}
+
+/* Ensure proper border colors in dark mode */
+.dark .border-gray-200 {
+  border-color: rgb(55 65 81) !important; /* gray-700 */
+}
+
+.dark .border-gray-300 {
+  border-color: rgb(75 85 99) !important; /* gray-600 */
+}
+
+/* Ensure proper shadow colors */
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Ensure input text is visible in dark mode */
+.dark input {
+  color: rgb(255 255 255) !important; /* white text */
+}
+
+.dark input::placeholder {
+  color: rgb(156 163 175) !important; /* gray-400 */
+}
+
+/* Ensure textarea text is visible in dark mode */
+.dark textarea {
+  color: rgb(255 255 255) !important; /* white text */
+}
+
+.dark textarea::placeholder {
+  color: rgb(156 163 175) !important; /* gray-400 */
+}

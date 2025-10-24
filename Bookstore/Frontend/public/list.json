@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Philosophy Book",
+    "title": "An introduction to key concepts",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  },
+  {
+    "id": 2,
+    "name": "Self-Help Book",
+    "title": "Strategies for a better life",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  },
+  {
+    "id": 3,
+    "name": "Fantasy",
+    "title": "A tale of magic and adventure",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  },
+  {
+    "id": 4,
+    "name": "Sci-Fi",
+    "title": "A journey to the stars",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  },
+  {
+    "id": 5,
+    "name": "Mystery",
+    "title": "A thrilling whodunit",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  },
+  {
+    "id": 6,
+    "name": "Romance",
+    "title": "A heartwarming love story",
+    "category": "Free",
+    "price": 0,
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQR3PZoqKIdkwGDl5pfYmHYMus3qYCJ0cLqksmbAIK4fJxS8H2kRQxPN_O5OJzuos-cTWG1tG2sdZhypT2oVXAVWwPLkyyXSa1G_pfZbGAGdOdRAK4"
+  }
+]
