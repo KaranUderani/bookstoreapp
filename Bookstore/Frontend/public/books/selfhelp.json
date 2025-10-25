@@ -1,0 +1,62 @@
+[
+  {
+    "id": 7,
+    "name": "Atomic Habits",
+    "author": "James Clear",
+    "title": "Tiny changes, remarkable results",
+    "category": "Self-Help",
+    "price": 16.99,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    "description": "A practical guide to building good habits and breaking bad ones through small, incremental changes."
+  },
+  {
+    "id": 8,
+    "name": "The 7 Habits of Highly Effective People",
+    "author": "Stephen Covey",
+    "title": "Powerful lessons in personal change",
+    "category": "Self-Help",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    "description": "A holistic approach to effectiveness in attaining goals through aligning oneself with universal principles."
+  },
+  {
+    "id": 9,
+    "name": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "title": "The classic guide to success",
+    "category": "Self-Help",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    "description": "The timeless classic that reveals the secret to financial independence and personal achievement."
+  },
+  {
+    "id": 10,
+    "name": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "title": "Master the art of influence",
+    "category": "Self-Help",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    "description": "Practical advice on how to make people like you, win people over, and change behavior without arousing resentment."
+  },
+  {
+    "id": 11,
+    "name": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "title": "A guide to spiritual enlightenment",
+    "category": "Self-Help",
+    "price": 17.99,
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=600&fit=crop",
+    "description": "A transformative book on the importance of living in the present moment and finding peace."
+  },
+  {
+    "id": 12,
+    "name": "Can't Hurt Me",
+    "author": "David Goggins",
+    "title": "Master your mind and defy the odds",
+    "category": "Self-Help",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=400&h=600&fit=crop",
+    "description": "An inspirational memoir about overcoming obstacles and pushing beyond perceived limits."
+  }
+]

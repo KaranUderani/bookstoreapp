@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akhil2k-lc/bookStoreApp.git"
+    "url": "git+https://github.com/KaranUderani/bookstoreapp.git"
   },
   "author": "karan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/akhil2k-lc/bookStoreApp/issues"
+    "url": "https://github.com/KaranUderani/bookstoreapp/issues"
   },
-  "homepage": "https://github.com/akhil2k-lc/bookStoreApp#readme",
+  "homepage": "https://github.com/KaranUderani/bookstoreapp#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

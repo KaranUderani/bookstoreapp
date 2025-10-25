@@ -1,0 +1,62 @@
+[
+  {
+    "id": 31,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "title": "A timeless love story",
+    "category": "Romance",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    "description": "The classic romance between Elizabeth Bennet and Mr. Darcy, exploring themes of love, class, and society."
+  },
+  {
+    "id": 32,
+    "name": "The Notebook",
+    "author": "Nicholas Sparks",
+    "title": "A love that lasts forever",
+    "category": "Romance",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    "description": "A touching story of enduring love between Noah and Allie, told through a notebook."
+  },
+  {
+    "id": 33,
+    "name": "Outlander",
+    "author": "Diana Gabaldon",
+    "title": "Time-traveling romance",
+    "category": "Romance",
+    "price": 17.99,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    "description": "A historical romance about a WWII nurse who travels back in time to 18th century Scotland."
+  },
+  {
+    "id": 34,
+    "name": "Me Before You",
+    "author": "Jojo Moyes",
+    "title": "A life-changing love",
+    "category": "Romance",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    "description": "A poignant love story between a caregiver and a quadriplegic man that changes both their lives."
+  },
+  {
+    "id": 35,
+    "name": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
+    "title": "Love across time",
+    "category": "Romance",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=600&fit=crop",
+    "description": "A unique love story about a man with a genetic disorder that causes him to time travel unpredictably."
+  },
+  {
+    "id": 36,
+    "name": "It Ends with Us",
+    "author": "Colleen Hoover",
+    "title": "A powerful story of love and strength",
+    "category": "Romance",
+    "price": 16.99,
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=400&h=600&fit=crop",
+    "description": "A bold and unflinching novel about a woman torn between two loves and facing difficult choices."
+  }
+]

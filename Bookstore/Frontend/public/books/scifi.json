@@ -1,0 +1,62 @@
+[
+  {
+    "id": 19,
+    "name": "Dune",
+    "author": "Frank Herbert",
+    "title": "The spice must flow",
+    "category": "Sci-Fi",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    "description": "A science fiction masterpiece about politics, religion, and ecology on the desert planet Arrakis."
+  },
+  {
+    "id": 20,
+    "name": "Foundation",
+    "author": "Isaac Asimov",
+    "title": "The saga of galactic empire",
+    "category": "Sci-Fi",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    "description": "The first book in the Foundation series about the fall and rise of a galactic civilization."
+  },
+  {
+    "id": 21,
+    "name": "Neuromancer",
+    "author": "William Gibson",
+    "title": "The cyberpunk classic",
+    "category": "Sci-Fi",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    "description": "A groundbreaking cyberpunk novel about a washed-up computer hacker hired for one last job."
+  },
+  {
+    "id": 22,
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "title": "Don't panic!",
+    "category": "Sci-Fi",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    "description": "A comedic science fiction series following the misadventures of Arthur Dent after Earth's destruction."
+  },
+  {
+    "id": 23,
+    "name": "Ender's Game",
+    "author": "Orson Scott Card",
+    "title": "The enemy's gate is down",
+    "category": "Sci-Fi",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=600&fit=crop",
+    "description": "A military science fiction novel about a young boy trained to lead humanity in war against an alien race."
+  },
+  {
+    "id": 24,
+    "name": "The Three-Body Problem",
+    "author": "Liu Cixin",
+    "title": "First contact with an alien civilization",
+    "category": "Sci-Fi",
+    "price": 16.99,
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=400&h=600&fit=crop",
+    "description": "A hard science fiction novel exploring humanity's first contact with an alien civilization."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Meditations",
+    "author": "Marcus Aurelius",
+    "title": "Timeless wisdom from a Roman Emperor",
+    "category": "Philosophy",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
+    "description": "A series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy."
+  },
+  {
+    "id": 2,
+    "name": "The Republic",
+    "author": "Plato",
+    "title": "Socratic dialogue on justice and order",
+    "category": "Philosophy",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    "description": "Plato's most famous work addressing the question of justice and examining the ideal state and the ideal individual."
+  },
+  {
+    "id": 3,
+    "name": "Being and Time",
+    "author": "Martin Heidegger",
+    "title": "Phenomenological investigation of being",
+    "category": "Philosophy",
+    "price": 18.99,
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
+    "description": "A groundbreaking work that explores the concept of Being through the lens of human existence and temporality."
+  },
+  {
+    "id": 4,
+    "name": "The Ethics",
+    "author": "Baruch Spinoza",
+    "title": "Geometric approach to philosophy",
+    "category": "Philosophy",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop",
+    "description": "Spinoza's magnum opus presents his views on God, nature, and human freedom in geometric form."
+  },
+  {
+    "id": 5,
+    "name": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche",
+    "title": "Critique of traditional morality",
+    "category": "Philosophy",
+    "price": 13.99,
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=600&fit=crop",
+    "description": "Nietzsche challenges the moral assumptions of his time and proposes new perspectives on truth and morality."
+  },
+  {
+    "id": 6,
+    "name": "Critique of Pure Reason",
+    "author": "Immanuel Kant",
+    "title": "Foundation of critical philosophy",
+    "category": "Philosophy",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=400&h=600&fit=crop",
+    "description": "Kant's seminal work examining the limits and scope of human reason and knowledge."
+  }
+]
