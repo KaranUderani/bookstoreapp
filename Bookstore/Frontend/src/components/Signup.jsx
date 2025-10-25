@@ -1,7 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Signup() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
+
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -26,7 +32,7 @@ function Signup() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     // Reset errors
@@ -81,26 +87,41 @@ function Signup() {
       return;
     }
 
-    // Log the information to console
-    console.log('Signup Form Submitted:');
-    console.log('Full Name:', formData.fullName);
-    console.log('Email:', formData.email);
-    console.log('Password:', formData.password);
-    console.log('-------------------');
+    // Prepare data for backend
+    const userInfo = {
+      fullname: formData.fullName,
+      email: formData.email,
+      password: formData.password,
+    };
 
-    // Clear the form
-    setFormData({
-      fullName: '',
-      email: '',
-      password: '',
-      confirmPassword: ''
-    });
-    setErrors({
-      fullName: '',
-      email: '',
-      password: '',
-      confirmPassword: ''
-    });
+    // Send to backend
+    try {
+      const res = await axios.post("http://localhost:4001/user/signup", userInfo);
+      console.log(res.data);
+      
+      if (res.data) {
+        toast.success("Signup Successfully");
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
+        
+        // Clear the form
+        setFormData({
+          fullName: '',
+          email: '',
+          password: '',
+          confirmPassword: ''
+        });
+        
+        // Navigate to home or previous page
+        navigate(from, { replace: true });
+      }
+    } catch (err) {
+      if (err.response) {
+        console.log(err);
+        toast.error("Error: " + err.response.data.message);
+      } else {
+        toast.error("Something went wrong!");
+      }
+    }
   };
 
   return (
@@ -203,7 +224,7 @@ function Signup() {
           <Link
             to="/"
             className="bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text font-semibold hover:underline"
-            onClick={() => document.getElementById("my_modal_3").showModal()}
+            onClick={() => document.getElementById("my_modal_3")?.showModal()}
           >
             Login
           </Link>

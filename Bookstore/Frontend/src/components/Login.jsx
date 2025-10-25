@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({ email: '', password: '' });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
     // Reset errors
@@ -38,16 +40,42 @@ function Login() {
       return;
     }
 
-    // Log the information to console
-    console.log('Login Form Submitted:');
-    console.log('Email:', email);
-    console.log('Password:', password);
-    console.log('-------------------');
+    // Prepare data for backend
+    const userInfo = {
+      email: email,
+      password: password,
+    };
 
-    // Clear the form
-    setEmail('');
-    setPassword('');
-    setErrors({ email: '', password: '' });
+    // Send to backend
+    try {
+      const res = await axios.post("http://localhost:4001/user/login", userInfo);
+      console.log(res.data);
+      
+      if (res.data) {
+        toast.success("Logged in Successfully");
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
+        
+        // Clear the form
+        setEmail('');
+        setPassword('');
+        setErrors({ email: '', password: '' });
+        
+        // Close modal
+        document.getElementById("my_modal_3").close();
+        
+        // Reload page after 1 second to update UI
+        setTimeout(() => {
+          window.location.reload();
+        }, 1000);
+      }
+    } catch (err) {
+      if (err.response) {
+        console.log(err);
+        toast.error("Error: " + err.response.data.message);
+      } else {
+        toast.error("Something went wrong!");
+      }
+    }
   };
 
   return (
@@ -106,7 +134,6 @@ function Login() {
           </button>
         </form>
 
-        {/* 🔹 Added "Not registered? Sign up" */}
         <p className="text-sm text-center mt-4 text-gray-600 dark:text-gray-400">
           Not registered?{" "}
           <Link to="/signup" className="bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text font-semibold cursor-pointer hover:underline">
@@ -123,7 +150,7 @@ function Login() {
         </div>
       </div>
     </dialog>
-  )
+  );
 }
 
-export default Login
+export default Login;
