@@ -37,7 +37,7 @@ export const CartProvider = ({ children }) => {
         if (!authUser) return;
         
         try {
-            const response = await axios.get(`http://localhost:4001/cart/${authUser._id}`);
+            const response = await axios.get(`https://bookstoreapp-01kq.onrender.com/cart/${authUser._id}`);
             setCart(response.data);
         } catch (error) {
             console.error('Error fetching cart:', error);
@@ -51,7 +51,7 @@ export const CartProvider = ({ children }) => {
         }
 
         try {
-            const response = await axios.post(`http://localhost:4001/cart/${authUser._id}`, {
+            const response = await axios.post(`https://bookstoreapp-01kq.onrender.com/cart/${authUser._id}`, {
                 bookId: book.id,
                 name: book.name,
                 author: book.author,
@@ -72,7 +72,7 @@ export const CartProvider = ({ children }) => {
         if (!authUser) return;
 
         try {
-            const response = await axios.put(`http://localhost:4001/cart/${authUser._id}/${bookId}`, {
+            const response = await axios.put(`https://bookstoreapp-01kq.onrender.com/cart/${authUser._id}/${bookId}`, {
                 quantity
             });
             setCart(response.data.cart);
@@ -85,7 +85,7 @@ export const CartProvider = ({ children }) => {
         if (!authUser) return;
 
         try {
-            const response = await axios.delete(`http://localhost:4001/cart/${authUser._id}/${bookId}`);
+            const response = await axios.delete(`https://bookstoreapp-01kq.onrender.com/cart/${authUser._id}/${bookId}`);
             setCart(response.data.cart);
         } catch (error) {
             console.error('Error removing from cart:', error);
@@ -96,7 +96,7 @@ export const CartProvider = ({ children }) => {
         if (!authUser) return;
 
         try {
-            const response = await axios.delete(`http://localhost:4001/cart/${authUser._id}`);
+            const response = await axios.delete(`https://bookstoreapp-01kq.onrender.com/cart/${authUser._id}`);
             setCart(response.data.cart);
         } catch (error) {
             console.error('Error clearing cart:', error);
